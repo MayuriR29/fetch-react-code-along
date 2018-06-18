@@ -55,6 +55,8 @@ async componentDidMount() {
   async componentDidMount() {
     const response = await fetch("http://carparks-sg.herokuapp.com/api")
     const data = await response.json();
-    console.log(data)
+    this.setState({
+      carparks: data
+    })
   }
   ```
