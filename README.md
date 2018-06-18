@@ -9,6 +9,7 @@ Getting set up:
 
 Tasks
 - Enter the following API URL in your Chrome browser and explore the data: http://carparks-sg.herokuapp.com/api
+  - You can install the [JSON Viewer chrome extension](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) to prettify the JSON response
 - Delete everything inside `App.js`, and create a class component named `App`
 - In `App.js`, define a function named `componentDidMount()`, and inside it, make a fetch request and console.log the response
 ```js
